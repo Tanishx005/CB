@@ -1,0 +1,104 @@
+/*
+
+int: username ="user1"
+
+int: Address;
+
+const a = "1";
+var b = "213";
+
+console.log(b);
+
+primitive data types - string , boolean , symbol, null , undefined.
+non primitive data types - arrays , objects , functions.
+
+*/
+
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------//
+// type conversion
+
+/*
+
+let score = "hello";
+let scoreInBoolean = Boolean(score);
+
+console.log(typeof score);
+console.log(typeof scoreInBoolean);
+console.log(scoreInBoolean);
+
+console.log(2*"5"); // 10
+console.log(200-"100"); // 100
+
+*/
+
+
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------//
+// switch case 
+
+let day = 7;
+
+switch(day) {
+    default:
+        console.log("Invalid day");
+        break;
+
+    case 1:
+        console.log("Monday");
+        break;
+
+    case 2:
+        console.log("Tuesday");
+        break;
+
+    case 3:
+        console.log("Wednesday");
+        break;
+    
+    case 4:
+        console.log("Thursday");
+        break;        
+
+    case 5:
+        console.log("Friday");
+        break;  
+        
+    case 6:    
+        console.log("Saturday");
+        break;
+        
+    case 7:
+        console.log("Sunday");
+        break;      
+}
+
+// create a object for student details with name, age, address and print the name of student using object.
+// keeping the data types in mind, create a array of 5 students and print the name of all students using for loop.
+
+
+let obj = {
+    name: "tanishq",
+    age: 21,
+    address: "Bareilly"
+}
+
+console.log(obj.name);cd
+let obj2 = {
+    array: ["tanishq", "b", "c", "d", "e"]
+};
+
+for (let i = 0; i < obj2.array.length; i++) {
+    console.log(obj2.array[i]);
+}
+
+
+
+
+
+
+
+
+
